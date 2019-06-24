@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+.tabs-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-nav_item {
+    border-bottom: 1px solid transparent;
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.tabs-nav_item.is-active {
+    border-color: #40b606;
+}
+
+.tab {
+    display: none;
+    padding: 20px;
+    background: antiquewhite;
+}
+.tab.is-active {
+    display: block;
+}
